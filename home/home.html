@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Poppins;
+    background-color: #020f16;
+}
+
+.navbar{
+    display: flex;
+    color: antiquewhite;
+    justify-content: space-between;
+    background-color: #020f16;
+    height: 50px;
+}
+.navbar .left-side{
+    display: flex;
+    font-size: 25px;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+/* .navbar .left-side .links{
+    display: flex;
+} */
+.navbar .left-side .text{
+    /* padding: 10px; */
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.navbar .left-side .links{
+    display: flex;
+    align-items: center;
+}
+.navbar .left-side .links a{
+    margin: auto 10px;
+    display: flex;
+    align-items: center;
+}  
+.navbar .left-side .text img{
+    height: 35px;
+    width: 60px;
+    
+}
+.navbar .left-side .links a img{
+    height: 24px;
+    width: 24px;
+    margin-left: 25px;
+
+}
+.navbar .right-side{
+    display: flex;
+    margin-right: 20px;
+    align-items: center;
+    /* font-size: 16px; */
+    font-size: 14px;
+    font-weight: bold;
+}   
+.navbar .right-side a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+.navbar .right-side a:hover{
+    color: #fa8b26;
+}
+.sub{
+    padding: 10px;
+    margin: 0 15px;
+}
+
+
+.upper-container{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-right: 30px;
+    justify-content: space-between;
+}
+.upper-container .left-side{
+    width: 55%;
+    padding-right: 20px;
+}
+.upper-container .left-side {
+    background-color: #000;
+    margin-top: 20px;
+    padding: 10px 60px 0px 60px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    height: 835px;
+}
+.upper-container .left-side  video{
+    height: 400px;
+    width: 100%;
+    
+}
+.upper-container .right-side{
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 45%;
+    margin-top: 30px;
+} 
+.upper-container .right-side .box{
+    padding-bottom: 5px;
+    margin: 5px;
+    background-color: #17242b;
+    color: #fa8b26;
+    border-radius: 15px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+}
+.upper-container .right-side .box img{
+    border-radius: 15px;
+}
+
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="left-side">
+            <div class="text"><img src="photos/jkb_logo.png" alt="" draggable="false"></div>
+            <div class="links">
+                <a href="https://api.whatsapp.com/send/?phone=919768455222&text=Hi&type=phone_number&app_absent=0"><img
+                        src="photos/whatsapp.png" alt="" draggable="false"></a>
+                <a href="https://www.youtube.com/channel/UC0lmhygv8wJTQbVjF-6QUVg"><img src="photos/youtube.png" alt=""
+                        draggable="false"></a>
+                <a href="https://www.instagram.com/jkb_education_group/"><img src="photos/instagram.png" alt=""
+                        draggable="false"></a>
+                <a
+                    href="https://in.linkedin.com/company/jkb-education-group?trk=public_profile_topcard-current-company"><img
+                        src="photos/linkedin.png" alt="" draggable="false"></a>
+            </div>
+        </div>
+        <div class="right-side">
+            <a class="sub Home" href="">Home</a>
+            <a class="sub Courses" href="">Courses</a>
+            <a class="sub Counselling" href="">Counselling</a>
+            <a class="sub Services" href="">IT Services</a>
+            <a class="sub About" href="">About Us</a>
+        </div>
+    </nav>
+    <section class="upper-container">
+        <div class="left-side">
+
+            <video poster="photos/jkb-thumbnail.png" controls>
+                <source src="https://staticservices.s3.ap-south-1.amazonaws.com/videos/Home+Page+Video.mp4"
+                    type="video/mp4">
+            </video>
+        </div>
+        <div class="right-side">
+            <div class="box box1">
+                <img height="124px" width="230px"
+                    src="https://staticservices.s3.ap-south-1.amazonaws.com/images/1st-Year-Engg-Counselling.jpg"
+                    alt="">
+                <div>Engg. Admission Counselling</div>
+            </div>
+            <div class="box box2">
+                <img height="124px" width="230px"
+                    src="https://staticservices.s3.ap-south-1.amazonaws.com/images/1st-Year-Engg-Counselling.jpg"
+                    alt="">
+                <div>Engg. Admission Counselling</div>
+            </div>
+            <div class="box box3">
+                <img height="124px" width="230px"
+                    src="https://staticservices.s3.ap-south-1.amazonaws.com/images/1st-Year-Engg-Counselling.jpg"
+                    alt="">
+                <div>Engg. Admission Counselling</div>
+            </div>
+            <div class="box box4">
+                <img height="124px" width="230px"
+                    src="https://staticservices.s3.ap-south-1.amazonaws.com/images/1st-Year-Engg-Counselling.jpg"
+                    alt="">
+                <div>Engg. Admission Counselling</div>
+            </div>
+            <div class="box box5">
+                <img height="124px" width="230px"
+                    src="https://staticservices.s3.ap-south-1.amazonaws.com/images/1st-Year-Engg-Counselling.jpg"
+                    alt="">
+                <div>Engg. Admission Counselling</div>
+            </div>
+            <div class="box box6">
+                <img height="124px" width="230px"
+                    src="https://staticservices.s3.ap-south-1.amazonaws.com/images/1st-Year-Engg-Counselling.jpg"
+                    alt="">
+                <div>Engg. Admission Counselling</div>
+            </div>
+            <div class="box box7">
+                <img height="124px" width="230px"
+                    src="https://staticservices.s3.ap-south-1.amazonaws.com/images/1st-Year-Engg-Counselling.jpg"
+                    alt="">
+                <div>Engg. Admission Counselling</div>
+            </div>
+            <div class="box box8">
+                <img height="124px" width="230px"
+                    src="https://staticservices.s3.ap-south-1.amazonaws.com/images/1st-Year-Engg-Counselling.jpg"
+                    alt="">
+                <div>Engg. Admission Counselling</div>
+            </div>
+            <div class="box box9">
+                <img height="124px" width="230px"
+                    src="https://staticservices.s3.ap-south-1.amazonaws.com/images/1st-Year-Engg-Counselling.jpg"
+                    alt="">
+                <div>Engg. Admission Counselling</div>
+            </div>
+            <div class="box box10">
+                <img height="124px" width="230px"
+                    src="https://staticservices.s3.ap-south-1.amazonaws.com/images/1st-Year-Engg-Counselling.jpg"
+                    alt="">
+                <div>Engg. Admission Counselling</div>
+            </div>
+
+        </div>
+    </section>
+</body>
+
+</html>
