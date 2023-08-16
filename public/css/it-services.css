@@ -83,3 +83,43 @@ background-color: #000;
     padding: 10px;
     margin: 0 15px;
 }
+
+.upper-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+.upper-container .video{
+    width: 50%;
+    text-align: center;
+
+}
+.upper-container div video{
+    width: 90%;
+    border-radius: 2rem;
+}
+
+.upper-container:nth-child(2){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.upper-container:nth-child(2) img {
+    width:200px
+}
+.upper-container .text{
+    margin-left: 10px;
+}
+
+.upper-container:last-child{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    margin-left: 10px;
+}
+.upper-container:last-child h3{
+    color: #fa8b26;
+    font-size: 18px;
+    justify-content: center;
+}
