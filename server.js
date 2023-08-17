@@ -28,7 +28,11 @@ app.get('/it-services',(req,res) =>{
     })
 })
 
-
+app.get('/about-Us',(req,res)=>{
+    res.render('about-Us',{
+        layout:false
+    })
+})
 // app.get('/',(req,res)=>{
 //     res.sendFile(path.join(__dirname,'/','index.html'));
 // })

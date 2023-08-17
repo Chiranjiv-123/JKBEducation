@@ -126,7 +126,7 @@ background-color: #000;
 }
 .below{
     display: grid;
-    margin: 40px;
+    margin: 30px;
     grid-template-columns: repeat(5,1fr);
     gap:20px;
 }
@@ -192,3 +192,31 @@ background-color: #000;
     font-weight: bold;
     text-align: center;
 }
+
+.footer{
+    display: grid;
+    margin: 30px;
+    grid-template-columns: repeat(4,1fr);
+    gap:20px;
+}
+.footer .box{
+    width: 100%;
+    color: aliceblue;
+    border-radius: 1rem;
+    padding: 20px;
+    background-color:  #1b1f24;
+    margin: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    display: grid;
+    row-gap: 4px;
+    
+}
+.footer .box div img{
+    filter: brightness(0) invert(1);
+}
+.footer .box :nth-of-type(2){
+    color: #fa8b26;
+    font-size: 18px;
+}
+
