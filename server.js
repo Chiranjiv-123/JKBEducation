@@ -22,6 +22,12 @@ app.get('/predict-college', (req, res) => {
     });
 });
 
+app.get('/counselling',(req,res)=>{
+    res.render('counselling',{
+        layout:false
+    })
+})
+
 app.get('/it-services',(req,res) =>{
     res.render('it-services',{
         layout : false
