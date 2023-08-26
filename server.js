@@ -12,31 +12,35 @@ app.use(express.static(__dirname+'/public'));
 
 app.get('/', (req, res) => {
     res.render('home',{
-        layout : false
+        csspath:"css/home.css",
+        helpers:{}
     });
 });
 
 app.get('/predict-college', (req, res) => {
     res.render('predict-college',{
-        layout : false
+        csspath:"css/predict-college.css",
+        helpers:{}
     });
 });
 
 app.get('/counselling',(req,res)=>{
     res.render('counselling',{
-        layout:false
+        csspath:"css/counselling.css"
     })
 })
 
 app.get('/it-services',(req,res) =>{
     res.render('it-services',{
-        layout : false
+        csspath:"css/it-services.css",
+        helpers:{}
     })
 })
 
 app.get('/about-Us',(req,res)=>{
     res.render('about-Us',{
-        layout:false
+        csspath:"css/about-Us.css",
+        helpers:{}
     })
 })
 // app.get('/',(req,res)=>{
