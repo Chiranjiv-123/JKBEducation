@@ -81,7 +81,7 @@ background-color: #000;
 }
 .sub{
     padding: 10px;
-    margin: 0 15px;
+    /* margin: 0 15px; */
 }
 .upper-body{
     /* display: flex; */

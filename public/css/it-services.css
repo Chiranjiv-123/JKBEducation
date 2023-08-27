@@ -81,7 +81,7 @@ background-color: #000;
 }
 .sub{
     padding: 10px;
-    margin: 0 15px;
+    /* margin: 0 15px; */
 }
 
 .upper-container{
@@ -99,13 +99,13 @@ background-color: #000;
     border-radius: 2rem;
 }
 
-.upper-container:nth-child(2){
+.upper-container .image{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.upper-container:nth-child(2) img {
+.upper-container .image img {
     width:200px
 }
 .upper-container .text{
@@ -114,7 +114,7 @@ background-color: #000;
 
 .upper-container .text{
     display: flex;
-    
+    justify-content: center;
     color: aliceblue;
     margin-left: 10px;
     flex-direction: column;
