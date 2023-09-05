@@ -14,7 +14,7 @@ app.use(express.urlencoded({ extended: false }));
 app.set('view engine', 'handlebars');
 app.set('views', './views');
 
-app.use(express.static(__dirname+'/public'));
+app.use(express.static('public'));
 
 
 
