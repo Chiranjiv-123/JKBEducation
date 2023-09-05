@@ -5,7 +5,7 @@ const cors = require("cors");
 require("dotenv").config();
 const app = express();
 const port = process.env.PORT || 3000;
-const path = require('path');
+
 
 app.engine('handlebars', handleBars.engine());
 app.use(cors());
