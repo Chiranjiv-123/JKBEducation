@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "connect_home_info",
   "main": "server.js",
+  "engines":{ 
+    "node": "18.x"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -15,5 +18,6 @@
     "express": "^4.18.2",
     "express-handlebars": "^7.1.1",
     "mongoose": "^7.5.0"
+    
   }
 }
