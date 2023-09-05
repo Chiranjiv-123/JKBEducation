@@ -10,7 +10,10 @@
   "author": "ChiranjivN",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
     "express": "^4.18.2",
-    "express-handlebars": "^7.1.1"
+    "express-handlebars": "^7.1.1",
+    "mongoose": "^7.5.0"
   }
 }

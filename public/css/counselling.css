@@ -155,6 +155,83 @@ body {
   font-weight: bold;
 }
 
+#overlay {
+    inset: 0;
+    position: fixed;
+    display: none;
+    z-index: 4;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#contact-popup{
+  inset: 10vh 15% auto;
+    border: 0.15rem solid #fa8b26;
+    background-color: #020f16;
+    color: #fff;
+    width: 70%;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    padding: 2rem;
+    position: absolute;
+}
+#contact-head {
+  color: #fa8b26;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+#contact-form > div {
+  margin: 0.8rem 0;
+}
+#cross {
+  float: right;
+  font-size: 2.5rem;
+  line-height: 2rem;
+  cursor: pointer;
+}
+label {
+  font-size: 1.1rem;
+  font-weight: bold;
+  line-height: 2.5rem;
+}
+#contact-form input {
+  border: 0;
+  width: 100%;
+  border-radius: 0.8rem;
+  box-sizing: border-box;
+  padding: 0.6rem;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  background-color: #17242b;
+  color: #eeeeee;
+}
+ 
+#contact-form > div:nth-of-type(6) {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+#contact-form > div:last-of-type {
+  display: none;
+  justify-content: center;
+  margin-top: 1.2rem;
+  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: orangered;
+}
+#contact-form button {
+  background-color: #fa8b26;
+  border: 0;
+  border-radius: 0.8rem;
+  padding: 0.5rem 1.5rem;
+  margin: 1rem 0 0;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  cursor: pointer;
+}
 .below_top{
   display: flex;
   margin: 30px 90px;
